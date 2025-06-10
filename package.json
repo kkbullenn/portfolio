@@ -1,0 +1,12 @@
+{
+  "name": "portfolio",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "nodemon server/index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
