@@ -16,6 +16,6 @@ const projectRoutes = require('./routes/projects');
 app.use('/api/projects', projectRoutes);
 
 
-mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => app.listen(PORT, () => console.log(`Server running on port ${PORT}`)))
-  .catch(err => console.error(err));
+// mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+//   .then(() => app.listen(PORT, () => console.log(`Server running on port ${PORT}`)))
+//  .catch(err => console.error(err));
